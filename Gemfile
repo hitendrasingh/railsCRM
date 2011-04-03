@@ -46,15 +46,16 @@ gem 'will_paginate'
   gem 'database_cleaner'
   gem 'capybara'
  end
-gem "sqlite3-ruby", :require => "sqlite3"
-gem "rspec-rails", ">= 2.4.1", :group => [:development]
 gem "remarkable_activerecord", ">=4.0.0.alpha4", :group => :test
 gem "factory_girl_rails", "1.1.beta1", :group => :test
 gem "cover_me", ">= 1.0.0.rc5", :group => :test
-gem "jquery-rails"
 gem "haml"
 gem "haml-rails"
 gem "compass"
+
+gem "sqlite3-ruby", :require => "sqlite3"
+gem "rspec-rails", ">= 2.4.1", :group => [:development]
+gem "jquery-rails"
 gem "capybara", "0.4.0", :group => :test
 gem "cucumber-rails", :group => :test
 gem "launchy", :group => :test

@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-MiniCRM::Application.config.secret_token = 'df3b1da7f096a437a7a15fe4f787ff424894412e6fd29a09f3ca03bb48f3abcc6c3875b0f78e8b26e17b035ad587e6d635cc2a26272037d0507974ddcc4e15db'
+MiniCRM::Application.config.secret_token = 'c5ef1578259621f1bafdec3a5d6c628378a40cdd35b82dcddea815cfe5a5ecaa1336ad0199d42566a55a0d3903c7c0c822812cf6415efb33a606719e7a23786b'
